@@ -1,6 +1,7 @@
 // News-image entry for Friday 20 November 2026 (Node 22, standard library only).
 // v2 rebuild: same copy, brand-new front page — 36 verified 20-Nov stories,
 // 13 pictures drawn by hand in Pillow, a UTC timeline and a date check.
+// The render is deterministic, so the copy is byte-identical on every run.
 // This program does one thing: it copies the finished front page, entry.png,
 // which sits beside this file in the repository, to the grader's output
 // directory. The picture itself is drawn by draw_news.py, a build-time helper
